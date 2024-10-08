@@ -10,7 +10,8 @@ setup(
       "matplotlib",
       "numpy",
       "SimpleITK",
-      "os"
+      "git+https://github.com/Qiyu-Zh/TotalSegmentator_Crop.git",
+      "git+https://github.com/Qiyu-Zh/Image-Toolbox.git"
     ],
     classifiers=[              # Metadata
         "Programming Language :: Python :: 3",
