@@ -3,7 +3,7 @@ import itertools
 from  Contrast2NonContrast.util.image_pool import ImagePool
 from  Contrast2NonContrast.util.util import transform_image
 from Contrast2NonContrast.models.base_model import BaseModel
-from Contrast2NonContrast.models. import networks
+from Contrast2NonContrast.models import networks
 from Contrast2NonContrast.models.conv_transformer import ConvTransformer
 
 
