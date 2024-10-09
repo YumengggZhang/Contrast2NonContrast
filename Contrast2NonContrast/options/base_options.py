@@ -17,13 +17,14 @@ class BaseOptions:
         self.initialized = False
 
     def initialize(self, parser):
+        default_checkpoints_dir = pkg_resources.resource_filename(__name__, '/../checkpoints')
         """Define the common options that are used in both training and test."""
         # basic parameters
         parser.add_argument('--dataroot', default=r'C:\Users\qzhuang4\Desktop\cycle-transformer\datasets\train2.pickle', help='path to images (should have subfolders trainA, trainB, valA, valB, etc)')
         parser.add_argument('--name', type=str, default='da_cytran', help='name of the experiment. It decides where to store samples and models')
         parser.add_argument('--gpu_ids', type=str, default='0', help='gpu ids: e.g. 0  0,1,2, 0,2. use -1 for CPU')
         parser.add_argument('--device', type=str, default='cuda', help='cuda or cpu')
-        parser.add_argument('--checkpoints_dir', type=str, default='./checkpoints', help='models are saved here')
+        parser.add_argument('--checkpoints_dir', type=str, default=default_checkpoints_dir, help='models are saved here')
         # model parameters
         parser.add_argument('--model', type=str, default='da_cytran', help='chooses which model to use. [transformer_cvt | transformer | cycle_gan | pix2pix | test | colorization]')
         # parser.add_argument('--model', type=str, default='cytran', help='chooses which model to use. [transformer_cvt | transformer | cycle_gan | pix2pix | test | colorization]')
