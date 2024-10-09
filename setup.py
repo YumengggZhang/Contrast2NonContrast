@@ -11,6 +11,9 @@ setup(
       "numpy",
       "SimpleITK"
     ],
+    package_data={
+        '': ['checkpoints/da-56/*', 'models/*', 'options/*', 'util/*']
+    },
     dependency_links=[
       "git+https://github.com/Qiyu-Zh/TotalSegmentator_Crop.git",
       "git+https://github.com/Qiyu-Zh/Image-Toolbox.git"
