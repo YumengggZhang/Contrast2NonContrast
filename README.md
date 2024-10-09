@@ -1,28 +1,19 @@
 
 # Contrast2NonContrast
 
-In this package, you can calculate hausdorff distance loss in GPU easily.
-Exampe:
-Multiple classes example:
-```
-example1
-```
+In this package, you can generate non-contrast 3d image from contrast 3d image.
+
 
 ```
-example2
+from Contrast2NonContrast.python_api import save_noncontrast    
+if __name__ == '__main__':
+    save_noncontrast(
+        input_path = r'your_folder/contrast.nii',
+        out_path = r'your_folder/noncontrast.nii',
+        device='cuda',
+    )
 ```
 
-Binary example:
-```
-import torch.nn as nn
-sigmoid = nn.Sigmoid()
-x = torch.rand(2, 1, 32, 32, 32).cuda()
-y = torch.randint(0, 2, (2, 1, 32, 32, 32)).cuda()
-loss = HD_loss(apply_nonlin=sigmoid, alpha = 2)
-res = loss(x, y)
-print(res)
-```
-bulabula
 
 You can install it through:
 ```
