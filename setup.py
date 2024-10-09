@@ -9,9 +9,7 @@ setup(
       "torch>=2.3.0",
       "matplotlib",
       "numpy",
-      "SimpleITK",
-      "git+https://github.com/Qiyu-Zh/TotalSegmentator_Crop.git",
-      "git+https://github.com/Qiyu-Zh/Image-Toolbox.git"
+      "SimpleITK"
     ],
     dependency_links=[
       "git+https://github.com/Qiyu-Zh/TotalSegmentator_Crop.git",
