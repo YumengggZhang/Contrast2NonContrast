@@ -3,7 +3,7 @@ import os
 from Contrast2NonContrast.util import util
 import torch
 import Contrast2NonContrast.models as models
-
+import pkg_resources
 
 class BaseOptions:
     """This class defines options used during both training and test time.
