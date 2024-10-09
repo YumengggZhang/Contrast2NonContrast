@@ -11,7 +11,7 @@ from options.train_options import TrainOptions
 import matplotlib.pyplot as plt
 
 @torch.no_grad()
-def save_fake_native(input_path,out_path,device='cpu'):
+def save_noncontrast(input_path,out_path,device='cuda'):
     # root_path - is the path to the raw Coltea-Lung-CT-100W data set.
 
     """Define Model Don't change"""
