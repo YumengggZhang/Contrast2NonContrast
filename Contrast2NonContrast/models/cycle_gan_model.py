@@ -4,7 +4,7 @@ import torch
 import itertools
 from Contrast2NonContrast.util import ImagePool
 from Contrast2NonContrast.models.base_model import BaseModel
-from Contrast2NonContrast.models. import networks
+from Contrast2NonContrast.models import networks
 
 
 class CycleGANModel(BaseModel):
