@@ -29,7 +29,7 @@ def find_model_using_name(model_name):
     be instantiated. It has to be a subclass of BaseModel,
     and it is case-insensitive.
     """
-    model_filename = "models." + model_name + "_model"
+    model_filename = "Contrast2NonContrast.models." + model_name + "_model"
     # model_filename = 'models.ivit_gan_model'
     # model_filename = 'models.cytran_model'
 
