@@ -26,5 +26,6 @@ bulabula
 
 You can install it through:
 ```
-!pip install git+https://github.com/YumengggZhang/Contrast2NonContrast.git
+!pip install git+https://github.com/YumengggZhang/Contrast2NonContrast.git git+https://github.com/Qiyu-Zh/TotalSegmentator_Crop.git git+https://github.com/Qiyu-Zh/Image-Toolbox.git
+
 ```
