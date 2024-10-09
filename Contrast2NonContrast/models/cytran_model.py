@@ -2,10 +2,10 @@
 
 import torch
 import itertools
-from util.image_pool import ImagePool
-from models.conv_transformer import ConvTransformer
-from .base_model import BaseModel
-from . import networks
+from Contrast2NonContrast.util.image_pool import ImagePool
+from Contrast2NonContrast.models.conv_transformer import ConvTransformer
+from Contrast2NonContrast.models.base_model import BaseModel
+from Contrast2NonContrast.models import networks
 
 
 class CyTranModel(BaseModel):
