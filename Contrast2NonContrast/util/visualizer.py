@@ -3,7 +3,7 @@ import os
 import sys
 import ntpath
 import time
-from . import util, html
+from Contrast2NonContrast.util import util, html
 from subprocess import Popen, PIPE
 
 
