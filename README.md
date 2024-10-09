@@ -1,7 +1,7 @@
 
 # Contrast2NonContrast
 
-This package is for generating 3d non-contrast cardiac CT images from contrast CTs.
+This package is for generating 3d non-contrast cardiac CT images from contrast CTs. This package only accept dicom or nifty image format
 
 In jupyter notebook:
 ```
