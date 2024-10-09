@@ -6,8 +6,8 @@ import SimpleITK as sitk
 import numpy as np
 import torch
 
-from models import create_model
-from options.train_options import TrainOptions
+from Contrast2NonContrast.models import create_model
+from Contrast2NonContrast.options.train_options import TrainOptions
 import matplotlib.pyplot as plt
 
 @torch.no_grad()
