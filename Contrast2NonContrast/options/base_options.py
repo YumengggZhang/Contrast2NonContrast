@@ -1,8 +1,8 @@
 import argparse
 import os
-from util import util
+from Contrast2NonContrast.util import util
 import torch
-import models as models
+import Contrast2NonContrast.models as models
 
 
 class BaseOptions:
