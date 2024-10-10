@@ -1,4 +1,4 @@
-import setuptools
+from setuptools import setup, find_packages
 setup(
     name='Contrast2NonContrast',
     version="0.1.0",
